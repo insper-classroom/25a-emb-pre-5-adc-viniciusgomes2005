@@ -41,7 +41,7 @@ void process_task(void *p) {
             if(i >=5){
                 i = 0;
             }
-            printf("%d \n", div);
+            printf("%d\n", div);
             vTaskDelay(pdMS_TO_TICKS(50));
         }
     }
